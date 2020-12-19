@@ -1,12 +1,12 @@
 # Creating a Networked System Temperature Monitor Display for the Raspberry Pi
 
-Tags: Django, Electron, GUI, IoT, Javascript, Python, Raspberry Pi, Svelte, arm6l, arm7l
+Tags: Flask, Electron, GUI, IoT, Javascript, Python, Raspberry Pi, Svelte, arm6l, arm7l
 
 ## Outline
 
 - Pic with explanation
 - Warnings
-- Building Django with Open Hardware Monitor
+- Building Flask with Open Hardware Monitor
 - Building Frontend Svelte and Electron
     - Warn that Electron is not necessary
 - Set up autoload script on pi
@@ -19,7 +19,7 @@ If you're still seeking the thrill of building/customizing your PC and looking f
 
 Inspired by the [NZXT Kraken](https://www.nzxt.com/products/kraken-z63), I wanted to create a way to display system stats (or [gifs](https://d1sxg8jua9jde6.cloudfront.net/wp-content/uploads/2020/01/nzxt-kraken-z-3-cooler-animated-gif-1024x576.jpg)) inside of my PC, but I didn't want to jump into water-cooling just yet. I also wanted it to be wireless as I have enough issues with cable management, and I didn't want the system to be "a part of" my PC in any way. It's not nearly as elegant as NZXT's tech, but it definitely scratched the PC building itch I had, and mostly with some parts I had lying around the house.
 
-In **Part 1**, we're going to be building a temperature reader for Windows in Python, and then creating a web-server in Django to host an API (and optionally a static site)  that will provide system stats. I'm only covering CPU and GPU temps in this tutorial, but you can easily modify it to get the stats you want.  In **Part 2**, we'll build a reactive GUI in Svelte to display data from this API, and then use Electron to build a Linux binary to run the site as a Linux application on any arm7l devices, like a Raspberry Pi. 
+In **Part 1**, we're going to be building a temperature reader for Windows in Python, and then creating a web-server in Flask to host an API (and optionally a static site)  that will provide system stats. I'm only covering CPU and GPU temps in this tutorial, but you can easily modify it to get the stats you want.  In **Part 2**, we'll build a reactive GUI in Svelte to display data from this API, and then use Electron to build a Linux binary to run the site as a Linux application on any arm7l devices, like a Raspberry Pi. 
 
 ## Materials
 

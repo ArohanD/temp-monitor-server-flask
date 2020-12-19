@@ -1,5 +1,8 @@
 # Creating a Networked System Temperature Monitor Display on the Raspberry Pi
 
+![](https://raw.githubusercontent.com/ArohanD/temp-monitor-server-flask/main/pics/IMG_0135.jpg)
+![](https://raw.githubusercontent.com/ArohanD/temp-monitor-server-flask/main/pics/IMG_0134.jpg)
+
 ## Outline
 
 - Pic with explanation

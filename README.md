@@ -1,4 +1,4 @@
-# Creating a Networked System Temperature Monitor Display for the Raspberry Pi
+# Creating a Networked System Temperature Monitor Display on the Raspberry Pi
 
 Tags: Flask, Electron, GUI, IoT, Javascript, Python, Raspberry Pi, Svelte, arm6l, arm7l
 
@@ -45,9 +45,9 @@ Everything on this list can be substituted, and I'd encourage you to see what's 
 
 # Building the Apps
 
-Back-End Server:
+Back-End Server: https://github.com/ArohanD/temp-monitor-server-flask
 
-Front-End App:
+Front-End App: https://github.com/ArohanD/temp-monitor-svelte
 
 ## 1. Setting up your PC
 
@@ -69,10 +69,4 @@ The OHM is just a windows executable, and it's going to be a pain to start it up
 
 ### For ARMv6
 
-![Creating%20a%20Networked%20System%20Temperature%20Monitor%20Di%2067324ff91b6943e7a3131d9ac98df709/Untitled.png](Creating%20a%20Networked%20System%20Temperature%20Monitor%20Di%2067324ff91b6943e7a3131d9ac98df709/Untitled.png)
 
-![Creating%20a%20Networked%20System%20Temperature%20Monitor%20Di%2067324ff91b6943e7a3131d9ac98df709/Untitled%201.png](Creating%20a%20Networked%20System%20Temperature%20Monitor%20Di%2067324ff91b6943e7a3131d9ac98df709/Untitled%201.png)
-
-![Creating%20a%20Networked%20System%20Temperature%20Monitor%20Di%2067324ff91b6943e7a3131d9ac98df709/Untitled%202.png](Creating%20a%20Networked%20System%20Temperature%20Monitor%20Di%2067324ff91b6943e7a3131d9ac98df709/Untitled%202.png)
-
-![Creating%20a%20Networked%20System%20Temperature%20Monitor%20Di%2067324ff91b6943e7a3131d9ac98df709/Untitled%203.png](Creating%20a%20Networked%20System%20Temperature%20Monitor%20Di%2067324ff91b6943e7a3131d9ac98df709/Untitled%203.png)

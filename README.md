@@ -1,7 +1,5 @@
 # Creating a Networked System Temperature Monitor Display on the Raspberry Pi
 
-Tags: Flask, Electron, GUI, IoT, Javascript, Python, Raspberry Pi, Svelte, arm6l, arm7l
-
 ## Outline
 
 - Pic with explanation
